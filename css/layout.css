@@ -1,0 +1,493 @@
+body{
+    padding:0;
+	margin:0;
+	background:#FFF;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
+img{
+	border:none;
+	padding:0; 
+	margin: 0
+}
+
+#header{
+	
+}
+
+#header-tudo{
+	position:relative;
+    margin:0 auto;
+	width: 1000px;
+	height: 130px;
+
+}
+
+.logo-marca{
+    left: 7px;
+    position: absolute;
+    top: 6px;
+}
+
+.seu-pedido{
+    height: 65px;
+    left: 319px;
+    position: absolute;
+    top: 36px;
+    width: 450px;
+}
+
+h3{
+  margin:0;
+  padding:0;
+  font-size:16px;
+  color:#EDEDED;
+}
+
+.form-acompanhe{
+  margin: 5px 0;
+}
+
+.input-text{
+  height: 23px;
+  width: 188px;
+  background:#EEEEEE;
+  border:solid 1px #CCC;
+  padding:3px;
+  border-radius: 3px;
+  font-size:16px;
+}
+
+button{
+  width:40px;
+  height: 35px;
+}
+
+.fone{
+    height: 60px;
+    position: absolute;
+    right: 38px;
+    top: 36px;
+    width: 200px;
+}
+
+.des-fone{
+    color: #FFFFFF;
+    font-size: 20px;
+    position: absolute;
+    right: 0;
+    top: 0px;
+}
+
+/* Inicio menu */
+#menu-fundo{
+   width:100%;
+   height: 33px;
+}
+
+.menu-formatado{
+   margin: 0 auto;
+   width: 1000px;
+   height:33px;
+}
+
+.menu{
+	float: left;
+	font-size: 16px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#banner{
+	background:url(/web/20170627132645im_/http://suprir.net/public/imagem/layout/fundo-banner.jpg);
+	width: 100%;
+	height:300px;
+}
+
+.next{
+	position: absolute;
+	width: 40px;
+	height: 70px;
+	z-index: 2;
+	right: 184px;
+	top: 280px;	
+}
+
+.prev{
+    position: absolute;
+	width: 40px;
+	height: 70px;
+	z-index: 3;
+	left: 184px;
+	top: 280px;
+}
+	
+
+#portifolio{
+	position:relative;
+    background:url(/web/20170627132645im_/http://suprir.net/public/imagem/layout/fundo-portifolio.jpg) center;
+	width:100%;
+	height:88px;
+}
+
+.portifolio-conteudo{
+    position:relative;
+	margin: 0 auto;
+	width:1000px;
+	height:88px;
+}
+
+.titulo-portifolio{
+    font-size: 24px;
+    left: -1px;
+    margin: 0;
+    padding: 0;
+	color:#503426;
+    position: absolute;
+    top: 12px;
+    width: 114px;
+}
+
+.icon-portifolio{
+    left: 102px;
+    position: absolute;
+    top: 15px;
+}
+
+.titulo-ftp{
+    color: #FFFFFF;
+    font-size: 24px;
+    margin: 0;
+    position: absolute;
+    right: 182px;
+    top: 13px;
+}
+
+.icon-portifolio-brando{
+    position: absolute;
+    right: 127px;
+    top: 17px;
+	
+}
+
+.click-portifolio{
+    color: #FFFFFF;
+    font-size: 14px;
+    position: absolute;
+    right: 0;
+    text-align: right;
+    text-decoration: none;
+    top: 16px;
+}
+
+
+/* Conten */
+#content{
+   position:relative; 	
+   width: 1000px;
+   height: 165px;
+   margin: 0 auto;
+}
+
+#produto-carosel{
+   margin: 0 auto;
+   width: 1000px;
+   height: 165px;
+   position:absolute;
+}
+
+.box-carrocel{
+    left: 52px;
+    position: absolute;
+    top: 20px;
+}
+
+.car_move img{
+    background:url(/web/20170627132645im_/http://suprir.net/public/imagem/layout/sombra-portifolio.png);
+    padding: 0 0 9px;
+	padding-bottom:16px;
+}
+
+.next-box{
+   left: 0;
+   position: absolute;
+   top: 60px;
+}
+
+.prev-box{
+   position:absolute;
+   top:60px;
+   right:0px;	
+}
+
+#outros-servicos{	
+   width: 100%;
+   height:275px;
+   background:#DDDDDD;
+   border-top:solid 1px #999999;
+   border-bottom:solid 1px #999999;
+}
+
+.centro-servico{
+   position:relative; 	
+   margin: 0 auto;
+   width:1000px;
+   height:275px;
+}
+
+.titulo-servico{
+   color: #503426;
+   font-size: 24px;
+   left: 0;
+   margin: 0;
+   position: absolute;
+   top: 15px;
+}
+
+.img-servico{
+   left: 186px;
+   position: absolute;
+   top: 20px;
+}
+
+.img-servico-grande{
+   margin-top: 70px;	
+}
+
+.img-eventos{
+   position:absolute;
+   bottom: 30px;
+   left: 0px; 
+}
+
+.img-loca{
+   position:absolute;
+   bottom: 30px;
+   left: 340px;
+   margin: 0 -10px;
+}
+
+.img-limpeza{
+   position:absolute;
+   bottom: 30px;
+   left: 660px;
+}
+
+#dicas{
+   margin: 0 auto;
+   position:relative;
+   width: 1000px;
+   height:170px;  
+}
+.titulo-dicas{
+   color: #503426;
+   position:relative;
+   font-size: 24px;
+   left: 0;
+   margin: 0;
+   position: absolute;
+   top: 5px;
+}
+
+
+
+.foto-da-dica{
+    width: 480px;
+	height: 89px;
+	float: left;
+	margin: 40px 10px;
+}
+
+.img-dicas{
+   left: 80px;
+   position: absolute;
+   top: 8px;
+}
+
+.titulo-da-dica{
+	padding: 0px;
+	margin: 0px;
+	font-size:18px;
+	color:black;
+
+}
+
+#footer{
+   background:url(/web/20170627132645im_/http://suprir.net/public/imagem/layout/menu-footer.jpg) center;
+   width:100%;
+   height:61px;
+}
+
+.menu-footer{
+   margin: 0 auto;
+   width: 1000px;
+   height:61px;
+}
+
+.footer-menu{
+   margin: 30px 16px;
+   color: #FFF;
+}
+
+#footer-objeto{
+   position:relative;
+   width:1000px;
+   height: 28px;
+   margin: 0 auto;
+}
+
+.texto-footer{
+   left: 0;
+   margin: 0;
+   position: absolute;
+   top: 8px;
+   font-size:12px;	
+}
+
+.objeto-img{
+   position:absolute;
+   top: 4px;
+   right: 0;	
+}
+
+ul li{
+   list-style:none;
+}
+
+#global-nav{
+/*	background: #36324B;*/
+	color: #FFF;
+	z-index: 100;
+	height: 28px;
+/*	border-bottom: 4px rgba(154, 151, 218, 0.5) solid;*/
+}
+#global-nav li a{
+    padding: 6px 19px;
+	display: block;
+	z-index: 50;
+	color: #FFF;
+}
+#global-nav ul ul a:hover{
+    background:rgb(89, 86, 102);
+}
+#global-nav ul ul{
+	width: 200px;
+	z-index: 300;
+	float: left;
+	margin-top: 28px;
+	margin-right: -200px;
+	position: relative;
+	left: -100px;
+	height: 500px;
+	margin-bottom: -500px;
+	overflow: hidden;
+	display:none;
+	
+
+}
+
+#global-nav ul li{
+   display:inline !important;
+}
+
+#global-nav ul ul:hover{
+	display: block;
+}
+#global-nav ul li a:hover + ul{
+	display: block;
+
+}
+
+.menu-ul a{
+   background-color:#211715;
+   background-image:url(/web/20170627132645im_/http://suprir.net/public/imagem/layout/menu-separador.png);
+	background-position:center bottom;
+	background-repeat:no-repeat;
+}
+
+
+.menu-ul {
+    width: 210px;
+	padding: 0px;
+	background-color:#36324B;
+	background-image:url(/web/20170627132645im_/http://suprir.net/public/imagem/layout/menu-separador.png);
+	background-position:center bottom;
+	background-repeat:no-repeat;
+}
+
+.cor{
+    color:#fff !important;
+	font-size:14px;
+}
+
+.menu.remove-margem {
+    margin: 5px 0px !important;
+}
+
+.tamanho_logo {
+   width:260px;
+   height:85px
+}
+
+.menu-size{
+   font-size:28px;}
+
+   .desc-size{
+      font-size:11px;
+   }
+
+@media (max-width: 991.98px) {
+
+
+   .menu-size{
+      font-size:20px;}
+
+   .tamanho_logo {
+      width:140px;
+      height:45px
+   }
+
+  
+   #header{
+      margin: 0 auto;
+      width: 100%;
+      height: 115px;
+   }
+   .site-blocks-cover .img-wrap {
+     width: 100%;
+     right: 0%;
+     top: 0; }
+     .site-blocks-cover .img-wrap .hero-slider:before {
+       position: absolute;
+       content: "";
+       background: #fff;
+       opacity: .5;
+       z-index: 2;
+       top: 0;
+       left: 0;
+       right: 0;
+       bottom: 0; } }
+/*
+     FILE ARCHIVED ON 13:26:45 Jun 27, 2017 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 18:20:49 May 14, 2020.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  PetaboxLoader3.datanode: 10716.087 (4)
+  LoadShardBlock: 12653.711 (3)
+  xauthn.identify: 2780.197
+  captures_list: 15489.903
+  xauthn.chkprivs: 0.033
+  RedisCDXSource: 41.778
+  exclusion.robots: 2780.458
+  esindex: 0.016
+  PetaboxLoader3.resolve: 2367.25 (2)
+  exclusion.robots.policy: 2780.438
+  CDXLines.iter: 10.651 (3)
+  load_resource: 473.779
+*/
