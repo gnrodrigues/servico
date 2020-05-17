@@ -431,11 +431,14 @@ ul li{
 }
 
 .menu-size{
-   font-size:28px;}
+   font-size:18px;
+}
 
    .desc-size{
       font-size:11px;
    }
+
+   
 
 @media (max-width: 991.98px) {
 

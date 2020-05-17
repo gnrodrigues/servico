@@ -149,7 +149,7 @@ h1, h2, h3, h4, h5, h6 {
   border-top: 1px solid #ced4da !important; }
 
 .site-footer {
-  padding-top: 17rem;
+  padding-top: 4rem;
   padding-bottom: 4rem;
   background: #333333; }
   .site-footer p {
@@ -627,7 +627,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 30px;
   background: #fff;
   border: 1px solid #eee;
-  border-top: 2px solid #bd1220;
+  border-top: 2px solid #BA9762;
   -webkit-transition: .3s all ease-in-out;
   -o-transition: .3s all ease-in-out;
   transition: .3s all ease-in-out;
@@ -637,7 +637,7 @@ h1, h2, h3, h4, h5, h6 {
     -webkit-box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.4);
     box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.4);
     border: 1px solid transparent;
-    border-top: 2px solid #bd1220;
+    border-top: 2px solid #000;
     top: -2px; }
   .service *:last-child {
     margin-bottom: 0; }
