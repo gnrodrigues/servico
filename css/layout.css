@@ -429,7 +429,7 @@ ul li{
 
 .tamanho_logo {
    width:260px;
-   height:85px
+   height:96px
 }
 
 .menu-size{
@@ -453,8 +453,18 @@ ul li{
       font-size: 28px;
    }
 
+   .banner-width{
+      flex: 0 0 83.333333%;
+    max-width: 83.333333%;
+   }
+
 @media (max-width: 991.98px) {
 
+
+   .banner-width{
+      flex: 0 0 100%;
+    max-width: 100%;
+   }
 
 .email{
    color:white; 
@@ -466,7 +476,7 @@ ul li{
 
    .tamanho_logo {
       width:140px;
-      height:45px
+      height:52px
    }
 
   
